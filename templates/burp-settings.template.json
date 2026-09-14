@@ -1,0 +1,5 @@
+{
+  "_template_notice": "Example structure only. Import only after reviewing in the target Burp version. No proxy listener, certificate, project history, credential, or user-specific value is included.",
+  "project_options": {},
+  "user_options": {}
+}

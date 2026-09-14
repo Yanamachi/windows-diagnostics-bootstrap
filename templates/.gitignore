@@ -1,0 +1,28 @@
+# Applies only to this templates/ directory; it does not replace a repository-root .gitignore.
+# Default deny plus explicit exclusions for populated local copies and diagnostics.
+*
+*.toml
+*.json
+*.env
+*.key
+*.pem
+*.p12
+*.pfx
+*.lic
+*.pcap
+*.pcapng
+*.cap
+*.log
+*.zip
+*.7z
+*.exe
+*.msi
+*.apk
+*.vhdx
+
+# The only files deliberately allowed in this directory.
+!.gitignore
+!codex.config.toml.template
+!codex.mcp.toml.template
+!burp-settings.template.json
+!orca-settings.template.json

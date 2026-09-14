@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "source": "C:\\mobile",
+  "note": "Portable-tool inventory; URLs and SHA-256 values require verification before restore.",
+  "tools": [
+    {
+      "name": "Ghidra",
+      "version": "11.3.2",
+      "kind": "portable",
+      "source_path": "C:\\mobile\\ghidra",
+      "download_url": "TODO_VERIFY_OFFICIAL_DOWNLOAD_URL",
+      "sha256": "TODO_VERIFY_SHA256"
+    },
+    {
+      "name": "JADX",
+      "version": "1.5.6",
+      "kind": "portable",
+      "source_path": "C:\\mobile\\jadx",
+      "download_url": "TODO_VERIFY_OFFICIAL_DOWNLOAD_URL",
+      "sha256": "TODO_VERIFY_SHA256"
+    },
+    {
+      "name": "Android platform-tools",
+      "version": "TODO_VERIFY_VERSION",
+      "kind": "portable",
+      "source_path": "C:\\mobile\\platform-tools",
+      "download_url": "TODO_VERIFY_OFFICIAL_DOWNLOAD_URL",
+      "sha256": "TODO_VERIFY_SHA256"
+    },
+    {
+      "name": "radare2",
+      "version": "6.2.2",
+      "kind": "portable",
+      "source_path": "C:\\mobile\\radare2",
+      "download_url": "TODO_VERIFY_OFFICIAL_DOWNLOAD_URL",
+      "sha256": "TODO_VERIFY_SHA256"
+    },
+    {
+      "name": "r2frida",
+      "version": "TODO_VERIFY_VERSION",
+      "kind": "portable-addon",
+      "source_path": "C:\\mobile\\r2frida",
+      "download_url": "TODO_VERIFY_OFFICIAL_DOWNLOAD_URL",
+      "sha256": "TODO_VERIFY_SHA256"
+    },
+    {
+      "name": "apktool",
+      "version": "TODO_VERIFY_VERSION",
+      "kind": "portable",
+      "source_path": "C:\\mobile\\apktool",
+      "download_url": "TODO_VERIFY_OFFICIAL_DOWNLOAD_URL",
+      "sha256": "TODO_VERIFY_SHA256"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "_template_notice": "Populate only in a local, ignored copy. Use environment-variable references or an approved secret manager; never store literal credentials here.",
+  "endpoint": "${ORCA_ENDPOINT}",
+  "authentication": {
+    "token": "${ORCA_TOKEN}"
+  },
+  "operation_mode": "read-only"
+}

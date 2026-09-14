@@ -1,0 +1,7 @@
+# Copy outside this repository before use. Do not commit the populated copy.
+# This file intentionally uses only common Codex configuration keys.
+# Select values that comply with the project and organization policy.
+
+# Current local preference; change it after reinstall if your account policy differs.
+model = "gpt-5.6-terra"
+model_reasoning_effort = "medium"

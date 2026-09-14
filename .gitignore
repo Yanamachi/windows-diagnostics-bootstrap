@@ -1,0 +1,43 @@
+# Secrets and populated local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.lic
+*.clixml
+config.toml
+mcp.toml
+*.pending
+
+# AI client state, authentication, and caches
+.codex/
+.claude/
+.claude-mem/
+orca-runtime/
+
+# Diagnostic data and local tool output
+*.pcap
+*.pcapng
+*.cap
+*.apk
+*.ipa
+*.sqlite
+*.db
+*.idb
+*.i64
+*.bndb
+artifacts/
+logs/
+downloads/
+tools/
+.venv/
+
+# Never commit installers or portable binary archives
+*.exe
+*.msi
+*.zip
+*.7z
+*.jar

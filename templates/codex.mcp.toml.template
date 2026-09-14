@@ -1,0 +1,21 @@
+# Example only. Copy outside the repository and replace placeholders locally.
+# Every server is disabled by default. Do not enable one until its approved MCP
+# package/endpoint, permissions, and authentication method have been verified.
+# Do not put tokens, user paths, or executable paths in this template.
+
+[mcp_servers.burp]
+enabled = false
+command = "REPLACE_WITH_APPROVED_BURP_MCP_COMMAND"
+
+[mcp_servers.ida]
+enabled = false
+command = "REPLACE_WITH_APPROVED_IDA_MCP_COMMAND"
+
+[mcp_servers.jadx]
+enabled = false
+command = "REPLACE_WITH_APPROVED_JADX_MCP_COMMAND"
+
+[mcp_servers.notion]
+enabled = false
+url = "https://mcp.notion.com/mcp"
+auth = "oauth"
