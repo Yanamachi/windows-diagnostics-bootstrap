@@ -48,7 +48,7 @@ git grep -n -i -E 'api[_-]?key|token|secret|password|authorization|bearer' -- .
 Git을 이미 설치했다면:
 
 ```powershell
-git clone https://github.com/<YOUR_GITHUB_ACCOUNT>/windows-diagnostics-bootstrap.git
+git clone https://github.com/Yanamachi/windows-diagnostics-bootstrap.git
 cd windows-diagnostics-bootstrap
 ```
 
